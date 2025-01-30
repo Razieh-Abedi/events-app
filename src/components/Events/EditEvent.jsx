@@ -57,7 +57,7 @@ export default function EditEvent() {
           title="An error occurred"
           message={
             error.info?.message ||
-            "Failed to load event. Please try again later."
+            "Failed to show event. Please try again later."
           }
         />
         <div className="form-actions">
